@@ -1,3 +1,5 @@
+"""Flask server for the emotion detection application."""
+
 from flask import Flask, jsonify, request
 
 from EmotionDetection.emotion_detection import emotion_detector
